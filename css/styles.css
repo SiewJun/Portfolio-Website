@@ -1,0 +1,236 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+img {
+  margin: auto;
+}
+
+.myname {
+  font-family: 'Syncopate', sans-serif;
+  font-size: 3rem;
+  font-stretch: expanded;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, .5);
+}
+
+.hovery {
+  font-size: 1.2rem;
+}
+
+.hovery:hover {
+  color: pink;
+}
+
+.collapse {
+  text-align: right;
+}
+
+.headingtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-stretch: expanded;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  color: white;
+  padding-top: 2rem;
+}
+
+.headingdescription {
+  font-family: 'Hubballi', cursive;
+  font-size: 1.8rem;
+  font-stretch: expanded;
+  line-height: 1.5;
+  color: white;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Hubballi', cursive;
+  font-size: 1.5rem;
+  color: #CACACA;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+#title {
+  background-image: url("../images/moon.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+  height: 47rem;
+  border-radius: 0 0 10% 10%;
+}
+
+#title .container-fluid {
+  padding: 3% 5%;
+}
+
+.title-image {
+  position: relative;
+  top: 10rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.nav-link {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  margin: 0 18px;
+}
+
+.download {
+  padding-right: 10px;
+  width: 30px;
+  height: 20px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.feature-box {
+  padding: 3rem;
+}
+
+.feature-title {
+  color: #1877F2;
+  font-weight: bold;
+}
+
+.icon {
+  padding: 2rem;
+  transition: ease-in-out 1s;
+}
+
+.icon:hover {
+  opacity: 0.5;
+  width: 230px;
+  height: 230px;
+}
+
+#skills .container-fluid {
+  padding: 2% 10% 3%;
+  background-color: black;
+  border-radius: 10%;
+}
+
+.skills-title {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+#skills p {
+  font-size: 1.2rem;
+}
+
+.d-block {
+  padding: 0.5rem 10rem 10rem;
+}
+
+#experiences {
+  background-color: #f8ceec;
+  background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+  border-radius: 15%;
+  margin: 0 2%;
+}
+
+.experiences-title {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+.experiences-caption {
+  color: black;
+  font-weight: bolder;
+}
+
+#moreinfo {
+  background-image: linear-gradient(135deg, #81FFEF 10%, #F067B4 100%);
+  padding: 0% 5% 20% 5%;
+  border-radius: 15%;
+  margin: 0 2%;
+}
+
+.card-deck {
+  margin: 0 90px;
+}
+
+.card {
+  margin-bottom: 10%;
+  background-color: white;
+}
+
+.card-title {
+  font-family: 'Hubballi', cursive;
+  font-size: 3rem;
+  color: black;
+}
+
+.card-text {
+  color: #7851a9;
+  font-weight: normal;
+}
+
+.moreinfo-title {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 4rem;
+  padding: 4rem;
+}
+
+#contact .container-fluid p {
+  color: white;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#contact {
+  padding-top: 3rem;
+  height: 10rem;
+}
+
+.contact-icon {
+  padding: 1.5%;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
