@@ -8,10 +8,10 @@ This project is a simple portfolio website where I showcase my skills, projects,
 
 ## Features
 
-- **Home Page:** Introduce myself and provide links to other sections of the website.
-- **About Me:** Provide information about my background, skills, and interests.
-- **Projects:** Showcase my projects with descriptions and links to GitHub or live demos.
-- **Contact:** Provide a way for visitors to get in touch with me.
+- **Experiences:** Introduce about my experiences.
+- **Skills:** Provide information about my skills.
+- **More Info:** Showcase my projects with descriptions.
+- **Contact:** Provide a way for visitors to get in touch with me and my background.
 
 ## Technologies Used
 
